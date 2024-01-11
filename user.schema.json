@@ -32,13 +32,17 @@
           "city",
           "country"
         ]
-      }
+      },
+        "phone": {
+            "type": "string"
+        }
     },
     "required": [
       "name",
       "age",
       "isMarried",
       "techs",
-      "address"
+      "address",
+      "phone"
     ]
   }
